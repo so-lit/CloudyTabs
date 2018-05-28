@@ -345,12 +345,12 @@
 				TargetAttributes = {
 					03648D811FA445FA004D3078 = {
 						CreatedOnToolsVersion = 9.0.1;
-						DevelopmentTeam = 3C7269R37R;
+						DevelopmentTeam = 65769B4M22;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 03977FCE18C3F98A00DC499C;
 					};
 					03977FCE18C3F98A00DC499C = {
-						DevelopmentTeam = 3C7269R37R;
+						DevelopmentTeam = 65769B4M22;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -515,7 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 3C7269R37R;
+				DEVELOPMENT_TEAM = 65769B4M22;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = CloudyTabsTests/Info.plist;
@@ -542,7 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 3C7269R37R;
+				DEVELOPMENT_TEAM = 65769B4M22;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = CloudyTabsTests/Info.plist;
@@ -657,8 +657,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3C7269R37R;
+				DEVELOPMENT_TEAM = 65769B4M22;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/CloudyTabs",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -670,6 +671,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CloudyTabs;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -679,8 +681,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3C7269R37R;
+				DEVELOPMENT_TEAM = 65769B4M22;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/CloudyTabs",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -692,6 +695,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CloudyTabs;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
